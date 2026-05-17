@@ -30,12 +30,3 @@ Wyzwania, przed którymi stoi ekosystem, to m.in.:
 *   **Paradoks decentralizacji** – mimo rozproszonej natury Gita, rynek silnie koncentruje się wokół platformy GitHub należącej do Microsoftu [12].
 *   Pojawienie się nowej konkurencji w postaci systemów opartych na **blockchainie** [12, 13].
 
-## Podsumowanie
-*Wskazówka: Podsumujcie zebrane informacje. Czy Waszym zdaniem AI zastąpi programistów, czy jedynie zmieni charakter ich pracy z systemem Git? [13, 14]*
-
----
-### Bibliografia (Przykładowe źródła do uzupełnienia przez grupę)
-* [4] About GitHub · GitHub.
-* [1] Finally, AI for the entire software lifecycle, GitLab.
-* [7] GitHub Copilot Intellectual Property Litigation.
-* [11] Wszystkie notatki z 5/13/2026.
