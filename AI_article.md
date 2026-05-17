@@ -23,7 +23,7 @@ Rozwój narzędzi AI w ekosystemie Git nie odbywa się bez przeszkód. Najwięks
 *   Ryzyko, że AI może sugerować duże fragmenty kodu objęte licencją bez powiadomienia o tym użytkownika [5].
 
 ## 4. Przyszłość kontroli wersji i Git 3.0
-Przyszłość Gita to połączenie stabilności technicznej z nowymi standardami. Spodziewane wydanie **Git 3.0** (koniec 2026 r.) wprowadzi nazwę `main` jako domyślną oraz kontynuację migracji na bezpieczniejszy algorytm **SHA-256** [10, 11]. 
+Przyszłość Gita to połączenie stabilności technicznej z nowymi standardami. Spodziewane wydanie **Git 3.0** (koniec 2026 r.) wprowadzi nazwę `main` jako domyślną oraz kontynuację migracji na bezpieczniejszy algorytm **SHA-256** Oczekuje się również, że Git 3.0 skupi się na zwiększeniu wydajności pracy z bardzo dużymi repozytoriami oraz dalszym rozwoju funkcji takich jak partial clone czy sparse checkout. Wraz z pełnym przejściem na SHA‑256 Git umocni swoje bezpieczeństwo, a nowe standardy — w tym domyślna gałąź main — ujednolicą praktyki w całym ekosystemie. Coraz większą rolę będą odgrywać także integracje z narzędziami CI/CD, podpisy kryptograficzne commitów oraz wsparcie dla nowoczesnych środowisk programistycznych, co sprawi, że Git pozostanie kluczowym elementem współczesnego procesu tworzenia oprogramowania. [10, 11]. 
 
 Wyzwania, przed którymi stoi ekosystem, to m.in.:
 *   **Skalowalność monorepozytoriów** i obsługa bardzo dużych plików [12].
