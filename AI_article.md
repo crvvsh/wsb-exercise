@@ -62,7 +62,7 @@ Rozwój kontroli wersji nie kończy się na samym Gicie. W odpowiedzi na skompli
 Generowanie kodu przez sztuczną inteligencję wyznacza kolejny wielki krok w ewolucji kontroli wersji. Tradycyjne przepływy pracy nie były projektowane na sytuację, w której asystenci AI generują tysiące linii kodu tygodniowo. Przyszłość to przejście na kontekstową kontrolę wersji, gdzie systemy będą automatycznie śledzić intencje stojące za zmianami, usprawniać asynchroniczne code review i inteligentnie scalać konflikty w czasie rzeczywistym.
 
 
-## Podsumowanie
+## Podsumowanie :))
 
 _Wskazówka: Podsumujcie zebrane informacje. Czy Waszym zdaniem AI zastąpi programistów, czy jedynie zmieni charakter ich pracy z systemem Git? [13, 14]_
 
