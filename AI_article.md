@@ -30,6 +30,29 @@ Wyzwania, przed którymi stoi ekosystem, to m.in.:
 *   **Paradoks decentralizacji** – mimo rozproszonej natury Gita, rynek silnie koncentruje się wokół platformy GitHub należącej do Microsoftu [12].
 *   Pojawienie się nowej konkurencji w postaci systemów opartych na **blockchainie** [12, 13].
 
+**Nadchodzące zmiany w Git 3.0***
+
+Kluczowym celem przyszłej, dużej wersji systemu Git jest modernizacja i rozwiązanie problemów technicznych, które wynikają z kilkunastoletniego rozwoju poprzednich wydań.
+
+* Algorytm SHA-256: Obecny standard SHA-1 staje się niewystarczający pod kątem bezpieczeństwa i rosnącej liczby projektów. Git 3.0 ma wprowadzić SHA-256 jako domyślny format dla nowych repozytoriów, eliminując ryzyko kolizji.
+
+* Reftable zamiast plików tekstowych: Tradycyjny system przechowywania referencji oparty na plikach (ang. packed-refs) przy dużych bazach kodu działa wolno i ogranicza skalowalność. Format reftable przyspieszy operacje takie jak git fetch i git push.
+
+* Wymagany Rust: Aby poprawić bezpieczeństwo pamięci i unowocześnić bazę projektu, kompilator języka Rust będzie wymagany do budowy Gita, co wyprze część kodu napisaną w C.
+
+**Nowa gałąź domyślna**
+W erze repozytoriów takich jak GitHub czy GitLab, używających gałęzi main, sam terminalowy Git zostanie wreszcie z nimi zsynchronizowany. Domyślną nazwą tworzoną przez polecenie git init będzie main zamiast dotychczasowego master.
+
+**Wyzwania dla branży**
+Głównym problemem wdrożenia zmian (zwłaszcza algorytmu SHA-256) nie jest sam program Git, ale całe powiązane środowisko. Platformy hostingowe i narzędzia CI/CD (GitHub, Bitbucket, narzędzia wspierające) będą musiały zaktualizować swoje systemy, aby obsłużyć nowy format.
+
+**Nowe podejście do interfejsu i wygoda (Jujutsu / jj)**
+Rozwój kontroli wersji nie kończy się na samym Gicie. W odpowiedzi na skomplikowaną obsługę niektórych poleceń (np. git rebase -i), coraz większą popularność zyskuje narzędzie Jujutsu (jj) od Google. Działa ono bezpośrednio na systemie Git (i używa jego silnika pod spodem), oferując przy tym od nowa przemyślane, znacznie bardziej intuicyjne środowisko.
+
+**Ewolucja zorientowana na AI**
+Generowanie kodu przez sztuczną inteligencję wyznacza kolejny wielki krok w ewolucji kontroli wersji. Tradycyjne przepływy pracy nie były projektowane na sytuację, w której asystenci AI generują tysiące linii kodu tygodniowo. Przyszłość to przejście na kontekstową kontrolę wersji, gdzie systemy będą automatycznie śledzić intencje stojące za zmianami, usprawniać asynchroniczne code review i inteligentnie scalać konflikty w czasie rzeczywistym.
+
+
 ## Podsumowanie
 *Wskazówka: Podsumujcie zebrane informacje. Czy Waszym zdaniem AI zastąpi programistów, czy jedynie zmieni charakter ich pracy z systemem Git? [13, 14]*
 
